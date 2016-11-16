@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: deliverypipleline-lab01
+  host: deliverypipleline-lab01
+  disk_quota: 1024M
+  services:
+  - deliverypipleline-lab01-cloudantNoSQLDB
